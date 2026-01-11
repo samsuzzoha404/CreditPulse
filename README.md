@@ -6,6 +6,8 @@
 
 **Professional Bloomberg-style financial analysis with intelligent document processing**
 
+**🏆 Built by [BlockNexa Labs](https://blocknexalabs.com) for LMA EDGE Hackathon 🏆**
+
 ---
 
 ## 🌐 **[✨ LIVE DEMO ✨](https://credit-pulse-chi.vercel.app)**
@@ -23,6 +25,9 @@
 
 ![CreditPulse Banner](https://img.shields.io/badge/💼_Financial_Intelligence-AI_Powered-success?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge)
+![Hackathon](https://img.shields.io/badge/🏆_LMA_EDGE-Hackathon_Project-orange?style=for-the-badge)
+
+**Created by BlockNexa Labs**
 
 </div>
 
@@ -551,6 +556,8 @@ Need help or have questions?
 
 Special thanks to:
 
+- **[LMA EDGE Hackathon](https://www.lma.eu.com/)** - For inspiring innovation in loan markets
+- **[BlockNexa Labs](https://blocknexalabs.com)** - Development team
 - **[Loan Market Association (LMA)](https://www.lma.eu.com/)** - Industry standards
 - **[Supabase](https://supabase.com)** - Backend infrastructure
 - **[Google Gemini](https://ai.google.dev/)** - AI-powered analysis
@@ -564,7 +571,9 @@ Special thanks to:
 
 ### **🚀 [Experience CreditPulse Live](https://credit-pulse-chi.vercel.app) 🚀**
 
-**Built with ❤️ for financial professionals worldwide**
+**Built with ❤️ by BlockNexa Labs for LMA EDGE Hackathon**
+
+*Empowering financial professionals worldwide*
 
 ---
 

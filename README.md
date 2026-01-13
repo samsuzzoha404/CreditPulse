@@ -66,6 +66,60 @@ Experience the power of AI-driven covenant monitoring:
 
 ---
 
+<div align="center">
+
+## 🎯 📄 DEMO FINANCIAL DOCUMENT 📄 🎯
+
+### **For Judges & Evaluators**
+
+</div>
+
+> ### 📎 **`Acme_Corp_FY2025_Financials.pdf`** - Ready to Test! 🚀
+> 
+> **🔥 This is your sample financial document to explore all CreditPulse features! 🔥**
+
+<div align="center">
+
+| 📊 What's Inside | ✅ Features to Test |
+|------------------|---------------------|
+| Complete Financial Statements | AI-Powered Extraction |
+| Income Statement, Balance Sheet, Cash Flow | Covenant Breach Detection |
+| Real Financial Metrics | Source Page Citations |
+| Multi-Page Professional Format | Interactive PDF Viewer |
+| Covenant Test Scenarios | Predictive Analytics & Forecasting |
+| Leverage & Coverage Ratios | Automated Waiver Letter Generation |
+
+</div>
+
+---
+
+### 🎯 **How to Use the Demo PDF:**
+
+```
+Step 1: 📥 Download `Acme_Corp_FY2025_Financials.pdf` from this repository
+Step 2: 🌐 Visit https://credit-pulse-chi.vercel.app
+Step 3: 🚀 Navigate to "Smart Analysis" page
+Step 4: 📤 Upload the PDF or drag-and-drop
+Step 5: ⚡ Watch AI magic in 30 seconds!
+```
+
+### ✨ **What CreditPulse Will Extract:**
+
+- 💰 **Revenue & EBITDA** with exact page references
+- 📊 **Net Debt & Leverage Ratios** automatically calculated
+- 📈 **Interest Coverage Metrics** with breach detection
+- 🎯 **Source Citations** - click any metric to see its PDF page
+- 🔮 **3-Month Forecasts** using predictive analytics
+- 🤖 **AI Waiver Letter** generated in seconds
+
+---
+
+> 💡 **Pro Tip**: This PDF is specifically engineered to demonstrate **all CreditPulse capabilities** including breach detection, multi-page navigation, source traceability, and predictive forecasting!
+
+> 🏆 **Perfect for judging** the AI accuracy, UI/UX, and end-to-end workflow!
+
+---
+
 ## 🚀 Key Features
 
 ### ✨ AI-Powered Analysis

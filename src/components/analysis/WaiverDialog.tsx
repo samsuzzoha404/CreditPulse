@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Sparkles, Copy, Check, Download, Loader2 } from 'lucide-react';
 import {
   Dialog,
@@ -82,11 +82,11 @@ export function WaiverDialog({ open, onOpenChange, waiverRequest }: WaiverDialog
   };
 
   // Auto-generate on open
-  useState(() => {
+  React.useEffect(() => {
     if (open && !letter && !isGenerating) {
       handleGenerate();
     }
-  });
+  }, [open]);
 
   return (
     <Dialog open={open} onOpenChange={handleOpenChange}>

@@ -41,17 +41,59 @@ OUTPUT:
 Return ONLY the letter text, formatted professionally with proper line breaks and spacing. Do NOT include any JSON, markdown formatting, or explanatory text.`;
 
 /**
+ * Generate a template waiver letter (fallback when API is not available)
+ */
+function generateTemplateWaiverLetter(request: WaiverLetterRequest): string {
+  const today = new Date().toLocaleDateString('en-GB', { 
+    day: '2-digit', 
+    month: 'long', 
+    year: 'numeric' 
+  });
+  
+  const breachPercent = (((request.breach_details.actual - request.breach_details.threshold) / request.breach_details.threshold) * 100).toFixed(1);
+  
+  return `${today}
+
+The Lender Group
+[Lender Address]
+
+Dear Sirs/Madams,
+
+Re: Waiver Request - ${request.breach_details.covenant_name} Covenant Breach
+
+We write to you on behalf of ${request.company_name} ("the Company") to formally request a waiver in respect of a covenant breach identified in our recent compliance testing.
+
+During the ${request.breach_details.reporting_period} reporting period, the Company recorded a ${request.breach_details.covenant_name} of ${request.breach_details.actual.toFixed(2)}x, which exceeds the agreed threshold of ${request.breach_details.threshold.toFixed(2)}x by approximately ${breachPercent}%.
+
+This breach occurred due to [temporary market conditions / one-off operational adjustments / restructuring costs] which have now been addressed. The Company has implemented corrective measures including enhanced cash flow management and cost optimization initiatives to ensure future compliance.
+
+We are confident that the Company's financial position remains fundamentally sound, and we project full compliance with all covenant requirements from the next reporting period onwards. The Company maintains strong operational performance and continues to meet all payment obligations under the facility.
+
+In light of these circumstances, we respectfully request that the Lender Group grant a one-time waiver for this covenant breach. We remain committed to transparent reporting and maintaining a constructive relationship with all lenders.
+
+We would be pleased to provide any additional information or arrange a meeting to discuss this matter further at your convenience.
+
+Yours faithfully,
+
+_______________________
+[Name]
+[Title]
+${request.company_name}`;
+}
+
+/**
  * Generate waiver letter using Gemini
  */
 export async function generateWaiverLetter(
   request: WaiverLetterRequest
 ): Promise<string> {
   if (!genAI) {
-    throw new Error('Google API Key is not configured');
+    // Use template instead of throwing error
+    return generateTemplateWaiverLetter(request);
   }
 
   try {
-    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash-latest' });
 
     // Prepare the prompt with actual data
     const prompt = WAIVER_PROMPT
@@ -68,9 +110,9 @@ export async function generateWaiverLetter(
     return letter.trim();
   } catch (error) {
     console.error('Waiver generation error:', error);
-    throw new Error(
-      `Failed to generate waiver letter: ${error instanceof Error ? error.message : 'Unknown error'}`
-    );
+    // Fallback to template if API fails
+    console.log('Falling back to template waiver letter');
+    return generateTemplateWaiverLetter(request);
   }
 }
 

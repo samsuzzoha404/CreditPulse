@@ -66,57 +66,35 @@ Experience the power of AI-driven covenant monitoring:
 
 ---
 
-<div align="center">
+## 📄 Demo Financial Document
 
-## 🎯 📄 DEMO FINANCIAL DOCUMENT 📄 🎯
+For judges and evaluators testing CreditPulse, we've included a sample financial PDF:
 
-### **For Judges & Evaluators**
+**📎 `Acme_Corp_FY2025_Financials.pdf`**
 
-</div>
+**🔗 [Download Demo PDF](https://drive.google.com/file/d/15t7fVwqFuK4liU-I8upGwzplwAGVcvTP/view?usp=drive_link)**
 
-> ### 📎 **`Acme_Corp_FY2025_Financials.pdf`** - Ready to Test! 🚀
-> 
-> **🔥 This is your sample financial document to explore all CreditPulse features! 🔥**
+This demo document contains:
+- Complete financial statements (Income Statement, Balance Sheet, Cash Flow)
+- Key financial metrics for covenant monitoring
+- Multi-page format to test PDF navigation features
+- Realistic data for testing breach detection and forecasting
 
-<div align="center">
+### How to Use the Demo PDF:
 
-| 📊 What's Inside | ✅ Features to Test |
-|------------------|---------------------|
-| Complete Financial Statements | AI-Powered Extraction |
-| Income Statement, Balance Sheet, Cash Flow | Covenant Breach Detection |
-| Real Financial Metrics | Source Page Citations |
-| Multi-Page Professional Format | Interactive PDF Viewer |
-| Covenant Test Scenarios | Predictive Analytics & Forecasting |
-| Leverage & Coverage Ratios | Automated Waiver Letter Generation |
+1. Download the PDF using the link above
+2. Navigate to the **Smart Analysis** page in the live demo
+3. Click **"Upload PDF"** or drag and drop the file
+4. Watch as AI automatically extracts:
+   - Revenue & EBITDA
+   - Net Debt & Leverage Ratios
+   - Interest Coverage metrics
+   - Source page citations
+5. Explore the interactive covenant monitoring dashboard
+6. Test the **Waiver Bot** to generate automated waiver letters
+7. Review predictive forecasts and trend analysis
 
-</div>
-
----
-
-### 🎯 **How to Use the Demo PDF:**
-
-```
-Step 1: 📥 Download `Acme_Corp_FY2025_Financials.pdf` from this repository
-Step 2: 🌐 Visit https://credit-pulse-chi.vercel.app
-Step 3: 🚀 Navigate to "Smart Analysis" page
-Step 4: 📤 Upload the PDF or drag-and-drop
-Step 5: ⚡ Watch AI magic in 30 seconds!
-```
-
-### ✨ **What CreditPulse Will Extract:**
-
-- 💰 **Revenue & EBITDA** with exact page references
-- 📊 **Net Debt & Leverage Ratios** automatically calculated
-- 📈 **Interest Coverage Metrics** with breach detection
-- 🎯 **Source Citations** - click any metric to see its PDF page
-- 🔮 **3-Month Forecasts** using predictive analytics
-- 🤖 **AI Waiver Letter** generated in seconds
-
----
-
-> 💡 **Pro Tip**: This PDF is specifically engineered to demonstrate **all CreditPulse capabilities** including breach detection, multi-page navigation, source traceability, and predictive forecasting!
-
-> 🏆 **Perfect for judging** the AI accuracy, UI/UX, and end-to-end workflow!
+> 💡 **Tip**: This PDF is specifically designed to showcase all CreditPulse features including breach detection, source citation, and predictive analytics.
 
 ---
 

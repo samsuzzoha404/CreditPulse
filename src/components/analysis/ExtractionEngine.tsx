@@ -410,12 +410,12 @@ export function ExtractionEngine({
                         </div>
                         
                         <Button 
-                          variant="ghost" 
+                          variant="outline" 
                           size="sm" 
                           onClick={() => handleDraftWaiver(breach)}
-                          className="gap-2 text-xs text-muted-foreground hover:text-foreground hover:bg-muted/50 w-fit mt-1"
+                          className="gap-2 text-xs font-medium bg-gradient-to-r from-primary/10 via-primary/5 to-transparent border-primary/30 text-primary hover:bg-primary/10 hover:border-primary/40 hover:shadow-sm transition-all duration-200 w-fit mt-1.5"
                         >
-                          <Sparkles className="h-3.5 w-3.5" />
+                          <Sparkles className="h-3.5 w-3.5 animate-pulse" />
                           Auto-Draft Waiver Request
                         </Button>
                       </div>

@@ -2,11 +2,11 @@
 
 # 🎯 CreditPulse
 
-### AI-Powered Loan Covenant Monitoring Platform
+### The Agentic Covenant Monitor
 
-**Professional Bloomberg-style financial analysis with intelligent document processing**
+**Transforming loan administration from reactive PDF processing to predictive intelligence and CDM interoperability**
 
-**🏆 Built by [BlockNexa Labs](https://blocknexalabs.com) for LMA EDGE Hackathon 🏆**
+**🏆 Built by [BlockNexa Labs](https://blocknexalabs.com) 🏆**
 
 ---
 
@@ -31,15 +31,36 @@
 
 </div>
 
+## 🎨 Modern Web3 Landing Page
+
+CreditPulse now features a stunning, professional Web3-style landing page that showcases:
+
+- **Animated Gradients**: Eye-catching background animations with dynamic gradient effects
+- **Glassmorphism**: Modern frosted-glass UI elements with backdrop blur effects
+- **Interactive Components**: Smooth hover effects and transitions throughout
+- **Responsive Design**: Perfect display on all devices from mobile to desktop
+- **Professional Branding**: Prominent "Built by BlockNexa Labs" branding
+- **Feature Showcase**: Clear presentation of Smart Ingestion, Predictive Risk Sentinel, and Agentic Waiver Workflow
+- **Commercial Impact**: Visual statistics and key metrics highlighting the platform's value proposition
+
+**Navigation:**
+- Landing Page: `/` - Your entry point with full product overview (Home)
+- Dashboard: `/dashboard` - Access the full application interface
+- All other routes: `/analysis`, `/portfolio`, `/settings`
+
+---
+
 ## 🎬 Quick Demo
 
 Experience the power of AI-driven covenant monitoring:
 
 1. **Visit**: [https://credit-pulse-chi.vercel.app](https://credit-pulse-chi.vercel.app)
-2. **Navigate** to Smart Analysis page
-3. **Upload** a financial PDF document
-4. **Watch** AI extract key metrics in real-time
-5. **Explore** interactive dashboards and forecasts
+2. **See** the stunning landing page first
+3. **Click** "Launch App" or "Get Started" to access the dashboard
+4. **Navigate** to Smart Analysis page
+5. **Upload** a financial PDF document
+6. **Watch** AI extract key metrics in real-time
+7. **Explore** interactive dashboards and forecasts
 
 > ⚡ No signup required - try it instantly!
 

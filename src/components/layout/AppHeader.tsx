@@ -12,7 +12,7 @@ interface PageTitle {
 }
 
 const pageTitles: Record<string, PageTitle> = {
-  "/": { title: "Dashboard" },
+  "/dashboard": { title: "Dashboard" },
   "/analysis": { title: "Smart Analysis", parent: "AI Tools" },
   "/portfolio": { title: "Loan Portfolio", parent: "Management" },
   "/settings": { title: "Settings", parent: "System" },

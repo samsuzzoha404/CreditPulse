@@ -15,7 +15,7 @@ interface NavItem {
 }
 
 const navItems: NavItem[] = [
-  { label: "Dashboard", icon: Home, path: "/" },
+  { label: "Dashboard", icon: Home, path: "/dashboard" },
   { label: "Smart Analysis", icon: FileText, path: "/analysis", badge: "AI" },
   { label: "Loan Portfolio", icon: Briefcase, path: "/portfolio" },
   { label: "Settings", icon: Settings, path: "/settings" },
